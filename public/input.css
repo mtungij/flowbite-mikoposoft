@@ -3,6 +3,6 @@
 @plugin "flowbite/plugin";
 
 @source "/node_modules/flowbite";
-
+@custom-variant dark (&:where(.dark, .dark *));
 
 /* npx @tailwindcss/cli -i ./public/input.css -o ./public/output.css --watch */

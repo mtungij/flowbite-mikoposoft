@@ -3,6 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
 <?php include('layouts/header.php') ?>
+<?php include('layouts/side.php') ?>
 
 <main class="h-dvh overflow-auto bg-gray-100 dark:bg-gray-900">
 	<div class="space-y-6 max-w-6xl mx-auto">
